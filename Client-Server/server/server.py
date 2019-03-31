@@ -36,10 +36,6 @@ def recv_file(name, sock):
     
     #this process is needed because the socket can send file data to the file's name
     #depending on the size of data on the file (e.g .txt files) 
-    #e.g:
-    #   file.txthelloworld 
-    #   
-    #   and you want file.txt > hello world (file's data)
 
 def _main():
     
